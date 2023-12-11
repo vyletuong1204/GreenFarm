@@ -65,7 +65,7 @@ st.markdown(s, unsafe_allow_html=True)
 
 st.write("We surveyed people in Ho Chi Minh City with sample n = 442")
 
-data = pd.read_excel('/content/drive/MyDrive/Khảo sát.xlsx')
+data = pd.read_excel('Khảo sát.xlsx')
 st.dataframe(data)
 
 label = "1. The Age"
@@ -365,7 +365,7 @@ st.markdown(s, unsafe_allow_html=True)
 
 
 
-data = pd.read_excel("/content/drive/MyDrive/Colab Notebooks/1.xlsx")
+data = pd.read_excel("1 (1).xlsx")
 st.write(data)
 st.write("This is customer persona's Green Farm. Target customers is in Ho Chi Minh City, who like to experience farming activities and grow vegetables.")
 
